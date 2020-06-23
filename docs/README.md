@@ -1,5 +1,5 @@
 
-<h2>Alter Linux - Arch Linux-derived OS made in Japan aimed at anyone to use</h2>
+<h2>IchiyOS</h2>
 <p align="center">
 	<a href="">
 		<img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
@@ -157,30 +157,9 @@ In addition, please write down the situation and model name <a href="https://git
 <a href="https://fascode.net/">Fascode Network</a> is a creative team mainly composed of students.<br>
 We are developing <a href="https://fascode.net/projects/linux/alter/">AlterLinux</a> and <a href="https://fascode.net/projects/linux/serene/">SereneLinux</a>.
 
-<h3>Official Twitter account</h3>
-<a href="https://twitter.com/FascodeNetwork">
-	<img src="https://pbs.twimg.com/profile_images/1245716817831530497/JEkKX1XN_400x400.jpg" width="100px">
-</a>
-<a href="https://twitter.com/Fascode_JP">
-	<img src="https://pbs.twimg.com/profile_images/1245682659231068160/Nn5tPUvB_400x400.jpg" width="100px">
-</a>
+
 
 <h3>Developer Twitter account</h3>
-<a href="https://twitter.com/Hayao0819">
-	<img src="https://avatars1.githubusercontent.com/u/32128205" width="100px">
-</a>
-<a href="https://twitter.com/Pixel_3a">
-	<img src="https://avatars0.githubusercontent.com/u/48173871" width="100px">
-</a>
-<a href="https://twitter.com/YangDevJP">
-	<img src="https://avatars0.githubusercontent.com/u/47053316" width="100px">
-</a>
-<a href="https://twitter.com/yamad_linuxer">
-	<img src="https://avatars1.githubusercontent.com/u/45691925" width="100px">
-</a>
-<a href="https://twitter.com/tukutuN_27">
-	<img src="https://pbs.twimg.com/profile_images/1252216597164376064/_L3qgpkr_400x400.jpg" width="100px">
-</a>
-<a href="https://twitter.com/naoko1010hh">
-	<img src="https://avatars1.githubusercontent.com/u/50263013" width="100px">
+<a href="https://twitter.com/laminne33569">
+	<img src="https://github.com/laminne.png" width="100px">
 </a>

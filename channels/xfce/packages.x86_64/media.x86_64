@@ -25,4 +25,4 @@ pulseaudio-modules-bt
 
 #-- media player --#
 viewnior
-vlc
+# vlc

@@ -153,10 +153,6 @@ Boot from the disk and select <code>Boot Alter Linux without boot splash (x86_64
 In addition, please write down the situation and model name <a href="https://github.com/FascodeNet/alterlinux/issues">here</a>, and report it to the developer.
 
 
-<h2>〈About FascodeNetwork and developers〉</h2>
-<a href="https://fascode.net/">Fascode Network</a> is a creative team mainly composed of students.<br>
-We are developing <a href="https://fascode.net/projects/linux/alter/">AlterLinux</a> and <a href="https://fascode.net/projects/linux/serene/">SereneLinux</a>.
-
 
 
 <h3>Developer Twitter account</h3>

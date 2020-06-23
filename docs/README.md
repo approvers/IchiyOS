@@ -1,11 +1,7 @@
 
 <h2>Alter Linux - Arch Linux-derived OS made in Japan aimed at anyone to use</h2>
-
 <p align="center">
-	<img src="../images/logo/color-black-catchcopy/AlterV6-LogowithCopy-Colored-DarkText-256px.png" alt="AlterLinux logo">
-</p>
-<p align="center">
-	<a href="https://fascode.net/en/projects/linux/alter/">
+	<a href="">
 		<img src="https://img.shields.io/badge/Maintained%3F-Yes-green?style=for-the-badge">
 	</a>
 	<a href="../LICENSE">
@@ -19,25 +15,25 @@
 	</a>
 </p>
 <p align="center">
-	<a href="https://github.com/FascodeNet/alterlinux/issues">
-		<img src="https://img.shields.io/github/issues/FascodeNet/alterlinux?color=violet&style=for-the-badge&logo=github" alt="Issues">
+	<a href="https://github.com/approvers/IchiyOS/issues">
+		<img src="https://img.shields.io/github/issues/approvers/ichiyos?color=violet&style=for-the-badge&logo=github" alt="Issues">
 	</a>
-	<a href="https://github.com/FascodeNet/alterlinux/stargazers">
-		<img src="https://img.shields.io/github/stars/FascodeNet/alterlinux?color=yellow&style=for-the-badge&logo=github">
+	<a href="https://github.com/approvers/IchiyOS/stargazers">
+		<img src="https://img.shields.io/github/stars/approvers/ichiyos?color=yellow&style=for-the-badge&logo=github">
 	</a>
-	<a href="https://github.com/FascodeNet/alterlinux/network/members">
-		<img src="https://img.shields.io/github/forks/FascodeNet/alterlinux?style=for-the-badge">
+	<a href="https://github.com/approvers/IchiyOS/network/members">
+		<img src="https://img.shields.io/github/forks/approvers/IchiyOS?style=for-the-badge">
 	</a>
 </p>
 <p align="center">
-	<a href="https://github.com/FascodeNet/alterlinux/releases">
-		<img src="https://img.shields.io/github/v/release/FascodeNet/alterlinux?color=blue&include_prereleases&style=for-the-badge" alt="release">
-	</a>
-	<a href="https://fascode.net/en/projects/linux/alter/downloads/">
-		<img src="https://img.shields.io/github/downloads/FascodeNet/alterlinux/total?style=for-the-badge">
+	<a href="https://github.com/approvers/IchiyOS/releases">
+		<img src="https://img.shields.io/github/v/release/approvers/IchiyOS?color=blue&include_prereleases&style=for-the-badge" alt="release">
 	</a>
 	<a href="">
-		<img src="https://img.shields.io/github/last-commit/FascodeNet/alterlinux?style=for-the-badge">
+		<img src="https://img.shields.io/github/downloads/approvers/IchiyOS/total?style=for-the-badge">
+	</a>
+	<a href="">
+		<img src="https://img.shields.io/github/last-commit/approvers/IchiyOS?style=for-the-badge">
 	</a>
 </p>
 

@@ -1,11 +1,4 @@
 #!/usr/bin/env bash
-#
-# Yamada Hayao
-# Twitter: @Hayao0819
-# Email  : hayao@fascode.net
-#
-# (c) 2019-2020 Fascode Network.
-#
 
 set -e -u
 
@@ -62,39 +55,32 @@ function remove () {
 }
 
 
-# Bluetooth
-rfkill unblock all
-systemctl enable bluetooth
-
-
-# Replace panel config
-if [[ "${japanese}" = true ]]; then
-    remove "/etc/skel/.config/lxpanel/LXDE/panels/panel"
-    mv "/etc/skel/.config/lxpanel/LXDE/panels/panel-jp" "/etc/skel/.config/lxpanel/LXDE/panels/panel"
-
-    remove "/home/${username}/.config/lxpanel/LXDE/panels/panel"
-    mv "/home/${username}/.config/lxpanel/LXDE/panels/panel-jp" "/home/${username}/.config/lxpanel/LXDE/panels/panel"
-else
-    remove "/etc/skel/.config/lxpanel/LXDE/panels/panel-jp"
-    remove "/home/${username}/.config/lxpanel/LXDE/panels/panel-jp"
+# Delete icon cache
+if [[ -f /home/${username}/.cache/icon-cache.kcache ]]; then
+    rm /home/${username}/.cache/icon-cache.kcache
 fi
 
 
-# Update system datebase
-dconf update
-
-
-# Snap
-if [[ "${arch}" = "x86_64" ]]; then
+if [[ "${arch}" = "x86_64" ]]; theh
+    # Snap
     systemctl enable snapd.apparmor.service
     systemctl enable apparmor.service
     systemctl enable snapd.socket
     systemctl enable snapd.service
+
+
+    # firewalld
+    systemctl enable firewalld.service
 fi
 
 
-# firewalld
-systemctl enable firewalld.service
+# Disable services.
+# To disable start up of sddm.
+# If it is enable, Users have to enter password.
+#systemctl disable sddm
+#if [[ ${boot_splash} = true ]]; then
+#    systemctl disable sddm-plymouth.service
+#fi
 
 
 # Replace link
@@ -108,29 +94,3 @@ else
     remove /etc/skel/Desktop/welcome-to-alter-jp.desktop
     remove /home/${username}/Desktop/welcome-to-alter-jp.desktop
 fi
-
-
-# Added autologin group to auto login
-groupadd autologin
-usermod -aG autologin ${username}
-
-
-# Enable LightDM to auto login
-if [[ "${boot_splash}" =  true ]]; then
-    systemctl enable lightdm-plymouth.service
-else
-    systemctl enable lightdm.service
-fi
-
-
-# Replace wallpaper
-remove "/usr/share/lxde/images/logout-banner.png"
-ln -s "/usr/share/lxde/images/alterlinux.png" "/usr/share/lxde/images/logout-banner.png"
-chmod 644 "/usr/share/lxde/images/logout-banner.png"
-
-
-# Replace auto login user
-sed -i s/%USERNAME%/${username}/g /etc/lightdm/lightdm.conf
-
-# Set script permission
-chmod 755 /usr/local/bin/alterlinux-sidebar
